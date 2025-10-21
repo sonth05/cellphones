@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+<link data-precedence="next" href="assets\cdn-static.smember.com.vn\_next\static\css\5a64a16db0783085.css" rel="stylesheet"/>
+<link data-precedence="next" href="assets\cdn-static.smember.com.vn\_next\static\css\487240dd9b15f323.css" rel="stylesheet"/>
+<link as="script" fetchpriority="low" href="assets\cdn-static.smember.com.vn\_next\static\chunks\webpack-071abcd234ded38a.js" rel="preload"/>
+<link as="script" href="assets\accounts.google.com\gsi\client" rel="preload"/>
+<link as="script" href="assets\appleid.cdn-apple.com\appleauth\static\jsapi\appleid\1\en_US\appleid.auth.js" rel="preload"/>
+<meta content="" name="next-size-adjust"/>
+<meta content="#FFFFFF" name="theme-color"/>
+<title>
+   Smember | Tri ân khách hàng thân thiết - Tích điểm đổi quà
+  </title>
+<meta content="Quà tặng tri ân khách hàng thân thiết - VIP membership của CellphoneS. Tích điểm Smember săn voucher, mức chiết khấu và ưu đãi sinh nhật hấp dẫn." name="description"/>
+<link href="manifest.webmanifest" rel="manifest"/>
+<meta content="Smember,Tri ân khách hàng,Khách hàng thân thiết,Tích điểm đổi quà" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+<link href="index" rel="canonical"/>
+<meta content="Smember | Tri ân khách hàng thân thiết - Tích điểm đổi quà" property="og:title"/>
+<meta content="Quà tặng tri ân khách hàng thân thiết - VIP membership của CellphoneS. Tích điểm Smember săn voucher, mức chiết khấu và ưu đãi sinh nhật hấp dẫn." property="og:description"/>
+<meta content="https://smember.com.vn" property="og:url"/>
+<meta content="Web Smember" property="og:site_name"/>
+<meta content="vi_VN" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Smember | Tri ân khách hàng thân thiết - Tích điểm đổi quà" name="twitter:title"/>
+<meta content="Quà tặng tri ân khách hàng thân thiết - VIP membership của CellphoneS. Tích điểm Smember săn voucher, mức chiết khấu và ưu đãi sinh nhật hấp dẫn." name="twitter:description"/>
+</head>
+<body class="__className_f92a78">
+<style>
+   :root {
+  --bprogress-color: #06b6d4;
+  --bprogress-height: 3px;
+  --bprogress-spinner-size: 18px;
+  --bprogress-spinner-animation-duration: 400ms;
+  --bprogress-spinner-border-size: 2px;
+  --bprogress-box-shadow: 0 0 10px #06b6d4, 0 0 5px #06b6d4;
+  --bprogress-z-index: 99999;
+  --bprogress-spinner-top: 15px;
+  --bprogress-spinner-bottom: auto;
+  --bprogress-spinner-right: 15px;
+  --bprogress-spinner-left: auto;
+}
+
+.bprogress {
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: var(--bprogress-z-index);
+}
+
+.bprogress .bar {
+  background: var(--bprogress-color);
+  position: fixed;
+  z-index: var(--bprogress-z-index);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--bprogress-height);
+}
+
+/* Fancy blur effect */
+.bprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: var(--bprogress-box-shadow);
+  opacity: 1.0;
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+.bprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: var(--bprogress-z-index);
+  top: var(--bprogress-spinner-top);
+  bottom: var(--bprogress-spinner-bottom);
+  right: var(--bprogress-spinner-right);
+  left: var(--bprogress-spinner-left);
+}
+
+.bprogress .spinner-icon {
+  width: var(--bprogress-spinner-size);
+  height: var(--bprogress-spinner-size);
+  box-sizing: border-box;
+  border: solid var(--bprogress-spinner-border-size) transparent;
+  border-top-color: var(--bprogress-color);
+  border-left-color: var(--bprogress-color);
+  border-radius: 50%;
+  -webkit-animation: bprogress-spinner var(--bprogress-spinner-animation-duration) linear infinite;
+  animation: bprogress-spinner var(--bprogress-spinner-animation-duration) linear infinite;
+}
+
+.bprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.bprogress-custom-parent .bprogress .spinner,
+.bprogress-custom-parent .bprogress .bar {
+  position: absolute;
+}
+
+.bprogress .indeterminate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--bprogress-height);
+  overflow: hidden;
+}
+
+.bprogress .indeterminate .inc,
+.bprogress .indeterminate .dec {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: var(--bprogress-color);
+}
+
+.bprogress .indeterminate .inc {
+  animation: bprogress-indeterminate-increase 2s infinite;
+}
+
+.bprogress .indeterminate .dec {
+  animation: bprogress-indeterminate-decrease 2s 0.5s infinite;
+}
+
+@-webkit-keyframes bprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes bprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bprogress-indeterminate-increase {
+  from { left: -5%; width: 5%; }
+  to { left: 130%; width: 100%; }
+}
+
+@keyframes bprogress-indeterminate-decrease {
+  from { left: -80%; width: 80%; }
+  to { left: 110%; width: 10%; }
+}
+  </style>
+<!--$-->
+<!--/$-->
+<div class="min-h-screen w-full">
+<!--$-->
+<div class="w-full px-1x-small py-large tablet:px-large tablet:py-4x-large">
+<div class="w-full max-w-[800px] mx-auto flex flex-col justify-center items-center gap-medium">
+<h1 class="text-medium tablet:text-3x-large laptop:text-4x-large text-center tablet:text-primary-500 font-bold">
+      Đăng ký trở thành SMEMBER
+     </h1>
+<img alt="Register Ant" class="w-[112px] h-[112px] tablet:w-[180px] tablet:h-[180px] object-contain" data-nimg="1" decoding="async" height="300" loading="lazy" src="assets\cdn-static.smember.com.vn\_next\static\media\register-ant.b75b959d.png" style="color:transparent" title="Register Ant" width="300"/>
+<span class="font-regular text-base tablet:text-medium text-neutral-500">
+      Đăng ký bằng tài khoản mạng xã hội
+     </span>
+<div class="w-full flex gap-medium tablet:gap-large justify-center tablet:justify-between items-center max-w-[450px]">
+<button class="transition-all duration-300 active:scale-95 cursor-pointer rounded-base inline-flex w-[60px] h-[60px] tablet:flex-1 tablet:min-w-[120px] tablet:w-auto font-medium text-neutral-900 justify-center items-center gap-2x-small" style="box-shadow:0px 0px 24px -4px rgba(0, 0, 0, 0.06), 0px 1px 4px 0px rgba(0, 0, 0, 0.06)" type="button">
+<img alt="Google" class="object-contain" data-nimg="1" decoding="async" height="24" loading="lazy" src="assets\cdn-static.smember.com.vn\_next\static\media\logo-google.b6f9570f.svg" style="color:transparent" title="Google" width="25"/>
+<span class="hidden tablet:block">
+        Google
+       </span>
+</button>
+<button class="transition-all duration-300 active:scale-95 cursor-pointer rounded-base inline-flex w-[60px] h-[60px] tablet:flex-1 tablet:min-w-[120px] tablet:w-auto font-medium text-neutral-900 justify-center items-center gap-2x-small" style="box-shadow:0px 0px 24px -4px rgba(0, 0, 0, 0.06), 0px 1px 4px 0px rgba(0, 0, 0, 0.06)" type="button">
+<img alt="Google" class="object-contain" data-nimg="1" decoding="async" height="20" loading="lazy" src="assets\cdn-static.smember.com.vn\_next\static\media\logo-zalo.120d889f.svg" style="color:transparent" title="Google" width="21"/>
+<span class="hidden tablet:block">
+        Zalo
+       </span>
+</button>
+</div>
+<span class="font-regular text-base tablet:text-medium text-neutral-500">
+      Hoặc điền thông tin sau
+     </span>
+<form action="" class="w-full flex flex-col gap-medium relative" method="get" onsubmit="return false;">
+<h2 class="font-bold text-medium tablet:text-large">
+       Thông tin cá nhân
+      </h2>
+<div class="w-full grid grid-cols-1 tablet:grid-cols-2 gap-medium items-stretch">
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+         Họ và tên
+         <!-- -->
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap" data-slot="input" maxlength="255" name="name" placeholder="Nhập họ và tên" value=""/>
+</div>
+</div>
+</div>
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+         Ngày sinh
+         <!-- -->
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap" data-slot="input" lang="vi-VN" max="2999-12-31" min="1900-01-01" name="birthday" placeholder="dd/mm/yyyy" type="text" value=""/>
+<div class="cpsui:flex cpsui:items-center cpsui:justify-center cpsui:aspect-square">
+<div aria-controls="radix-«R1349outhlb»" aria-expanded="false" aria-haspopup="dialog" class="cpsui:flex cpsui:items-center cpsui:justify-center cpsui:select-none cpsui:cursor-pointer cpsui:rounded-base cpsui:hover:bg-neutral-100 cpsui:h-[30px] cpsui:w-[30px]" data-slot="popover-trigger" data-state="closed" type="button">
+<svg class="cpsui:text-neutral-600" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 2v4">
+</path>
+<path d="M16 2v4">
+</path>
+<rect height="18" rx="2" width="18" x="3" y="4">
+</rect>
+<path d="M3 10h18">
+</path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+         Số điện thoại
+         <!-- -->
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap" data-slot="input" maxlength="10" name="phone" placeholder="Nhập số điện thoại" value=""/>
+</div>
+</div>
+</div>
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+<span>
+          Email
+          <span class="text-small font-regular text-neutral-400">
+           (Không bắt buộc)
+          </span>
+</span>
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap" data-slot="input" maxlength="255" name="email" placeholder="Nhập email" value=""/>
+</div>
+<div class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:text-positive-700 cpsui:text-small">
+<svg class="cpsui:shrink-0" fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewbox="0 0 448 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z">
+</path>
+</svg>
+          Hóa đơn VAT khi mua hàng sẽ được gửi qua email này
+         </div>
+</div>
+</div>
+</div>
+<h2 class="font-bold text-medium tablet:text-large">
+       Tạo mật khẩu
+      </h2>
+<div class="w-full grid grid-cols-1 tablet:grid-cols-2 gap-medium items-stretch">
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+         Mật khẩu
+         <!-- -->
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input autocapitalize="off" autocomplete="off" class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap cpsui:[&amp;::-ms-reveal]:hidden cpsui:[&amp;::-ms-clear]:hidden cpsui:appearance-none cpsui:-webkit-appearance-none" data-slot="input" name="password" placeholder="Nhập mật khẩu của bạn" spellcheck="false" type="password" value=""/>
+<button aria-label="Show password" class="cpsui:flex cpsui:cursor-pointer cpsui:items-center cpsui:justify-center cpsui:rounded-full cpsui:bg-neutral-200 cpsui:text-neutral-600 cpsui:hover:bg-neutral-300 cpsui:focus:outline-none cpsui:transition-colors cpsui:w-[20px] cpsui:h-[20px] cpsui:flex-shrink-0" tabindex="-1" type="button">
+<svg fill="currentColor" height="0.8em" stroke="currentColor" stroke-width="0" viewbox="0 0 576 512" width="0.8em" xmlns="http://www.w3.org/2000/svg">
+<path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+</path>
+</svg>
+</button>
+</div>
+<div class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:text-neutral-600 cpsui:text-small">
+<svg class="cpsui:shrink-0" fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewbox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z">
+</path>
+</svg>
+          Mật khẩu tối thiểu 6 ký tự, có ít nhất 1 chữ số và 1 số
+         </div>
+</div>
+</div>
+<div class="cpsui:flex cpsui:gap-2x-small cpsui:group cpsui:flex-col">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base" data-slot="label">
+         Nhập lại mật khẩu
+         <!-- -->
+</label>
+<div class="cpsui:flex cpsui:flex-col cpsui:gap-2x-small cpsui:peer">
+<div class="cpsui:p-1x-small cpsui:flex cpsui:items-center cpsui:gap-1x-small cpsui:min-w-0 cpsui:border cpsui:transition-colors cpsui:data-[disabled=true]:bg-neutral-100 cpsui:data-[disabled=true]:cursor-not-allowed cpsui:border-neutral-300 cpsui:focus-within:border-neutral-600 cpsui:data-[disabled=true]:border-neutral-200 cpsui:text-base cpsui:min-h-[48px] cpsui:rounded-base cpsui:pl-medium">
+<input autocapitalize="off" autocomplete="off" class="cpsui:w-full cpsui:h-full cpsui:bg-transparent cpsui:border-none cpsui:outline-none cpsui:shadow-none cpsui:ring-0 cpsui:focus:outline-none cpsui:focus:border-none cpsui:focus:ring-0 cpsui:focus-visible:outline-none cpsui:focus-visible:border-none cpsui:focus-visible:ring-0 cpsui:placeholder:text-neutral-300 cpsui:placeholder:select-none cpsui:disabled:opacity-80 cpsui:disabled:cursor-not-allowed cpsui:disabled:text-neutral-500 cpsui:disabled:placeholder:text-neutral-400 cpsui:overflow-hidden cpsui:text-ellipsis cpsui:whitespace-nowrap cpsui:[&amp;::-ms-reveal]:hidden cpsui:[&amp;::-ms-clear]:hidden cpsui:appearance-none cpsui:-webkit-appearance-none" data-slot="input" name="confirmPassword" placeholder="Nhập lại mật khẩu của bạn" spellcheck="false" type="password" value=""/>
+<button aria-label="Show password" class="cpsui:flex cpsui:cursor-pointer cpsui:items-center cpsui:justify-center cpsui:rounded-full cpsui:bg-neutral-200 cpsui:text-neutral-600 cpsui:hover:bg-neutral-300 cpsui:focus:outline-none cpsui:transition-colors cpsui:w-[20px] cpsui:h-[20px] cpsui:flex-shrink-0" tabindex="-1" type="button">
+<svg fill="currentColor" height="0.8em" stroke="currentColor" stroke-width="0" viewbox="0 0 576 512" width="0.8em" xmlns="http://www.w3.org/2000/svg">
+<path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z">
+</path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full grid grid-cols-1 gap-medium items-stretch py-medium">
+<div class="flex gap-1x-small items-center">
+<button aria-checked="false" class="cpsui:font-bold cpsui:block cpsui:rounded-[4px] cpsui:border cpsui:border-neutral-300 cpsui:bg-neutral-50 cpsui:hover:border-blue-500 cpsui:cursor-pointer cpsui:disabled:border-neutral-100 cpsui:disabled:bg-neutral-50 cpsui:disabled:cursor-not-allowed cpsui:w-[20px] cpsui:h-[20px] cpsui:data-[state=checked]:bg-blue-500 cpsui:data-[state=checked]:border-blue-500 cpsui:data-[state=checked]:cpsui:text-pure-white cpsui:hover:shadow-[0_0px_4px_rgba(59,130,246,0.7)] cpsui:hover:disabled:border-neutral-300 cpsui:disabled:data-[state=checked]:border-neutral-200 cpsui:disabled:data-[state=checked]:border-neutral-100 cpsui:disabled:data-[state=checked]:bg-neutral-50 cpsui:hover:disabled:shadow-none cpsui:disabled:data-[state=unchecked]:border-neutral-100 cpsui:disabled:data-[state=unchecked]:bg-neutral-50 cpsui:hover:disabled:shadow-none" data-slot="checkbox" data-state="unchecked" id="checkbox-promotionConsent" role="checkbox" type="button" value="on">
+</button>
+<input aria-hidden="true" name="promotionConsent" style="transform:translateX(-100%);position:absolute;pointer-events:none;opacity:0;margin:0" tabindex="-1" type="checkbox" value="on"/>
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base font-regular text-small" data-slot="label" for="checkbox-promotionConsent">
+         Đăng ký nhận tin khuyến mãi từ CellphoneS
+        </label>
+</div>
+<div class="flex gap-1x-small items-center">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base font-regular !inline-block text-base" data-slot="label">
+         Bằng việc Đăng ký, bạn đã đọc và đồng ý với
+         <!-- -->
+<span class="font-bold text-info-500" data-original-href="#">
+          Điều khoản sử dụng
+         </span>
+<!-- -->
+         và
+         <!-- -->
+<span class="font-bold text-info-500" data-original-href="#">
+          Chính sách bảo mật của CellphoneS
+         </span>
+         .
+        </label>
+</div>
+</div>
+<div class="w-full h-0 border-t-[1px]" style="border-image:repeating-linear-gradient(90deg, #CFCFD3 0px, #CFCFD3 8px, transparent 8px, transparent 16px) 8 / 1 / 0 stretch">
+</div>
+<div class="w-full py-medium flex flex-col gap-medium">
+<div class="w-full">
+<h2 class="flex gap-1x-small items-center">
+<label class="cpsui:flex cpsui:items-center cpsui:gap-2x-small cpsui:font-medium cpsui:select-none cpsui:group-data-[disabled=true]:pointer-events-none cpsui:group-data-[disabled=true]:opacity-50 cpsui:peer-data-[disabled=true]:cursor-not-allowed cpsui:peer-data-[disabled=true]:opacity-50 cpsui:text-base font-bold text-medium tablet:text-large" data-slot="label" for="switch-isStudent">
+          Tôi là Học sinh - sinh viên / Giáo viên - giảng viên
+         </label>
+<button aria-checked="false" class="cpsui:relative cpsui:cursor-pointer cpsui:disabled:cursor-not-allowed cpsui:hover:disabled:after:hidden cpsui:hover:after:rounded-full cpsui:hover:after:content-[''] cpsui:hover:after:absolute cpsui:hover:after:inset-0 cpsui:hover:after:bg-overlay-white-400 cpsui:w-[40px] cpsui:h-[24px] cpsui:inline-flex cpsui:shrink-0 cpsui:items-center cpsui:data-[state=checked]:bg-blue-500 cpsui:data-[state=checked]:disabled:bg-blue-200 cpsui:data-[state=unchecked]:bg-neutral-300 cpsui:data-[state=unchecked]:disabled:bg-neutral-100 cpsui:rounded-full cpsui:border-none cpsui:outline-none cpsui:transition-all cpsui:duration-200" data-slot="switch" data-state="unchecked" id="switch-isStudent" role="switch" type="button" value="on">
+<span class="cpsui:block cpsui:pointer-events-none cpsui:bg-pure-white cpsui:rounded-full cpsui:transition-transform cpsui:duration-200 cpsui:data-[state=checked]:translate-x-[calc(100%-5px)] cpsui:data-[state=unchecked]:translate-x-[1px] cpsui:size-[22px] cpsui:z-10 cpsui:data-[disabled=false]:shadow-[0_1px_4px_rgba(0,0,0,0.2)]" data-slot="switch-thumb" data-state="unchecked">
+</span>
+</button>
+<input aria-hidden="true" name="isStudent" style="transform:translateX(-100%);position:absolute;pointer-events:none;opacity:0;margin:0" tabindex="-1" type="checkbox" value="on"/>
+</h2>
+<div class="w-full mt-3x-small bg-neutral-50 p-2x-small text-small font-regular flex items-center gap-2x-small rounded-small">
+<svg class="text-base" fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.75 3.75A3.75 3.75 0 0 1 7.5 0c1.455 0 3.436.901 4.5 3.11C13.064.901 15.044 0 16.5 0a3.75 3.75 0 0 1 3 6h1.75c.966 0 1.75.784 1.75 1.75v2.5c0 .698-.409 1.301-1 1.582v8.418A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25v-8.418c-.591-.282-1-.884-1-1.582v-2.5C1 6.784 1.784 6 2.75 6H4.5a3.733 3.733 0 0 1-.75-2.25ZM20.5 12h-7.75v8.5h7.5a.25.25 0 0 0 .25-.25Zm-9.25 8.5V12H3.5v8.25c0 .138.112.25.25.25Zm10-10a.25.25 0 0 0 .25-.25v-2.5a.25.25 0 0 0-.25-.25h-8.5v3Zm-18.5 0h8.5v-3h-8.5a.25.25 0 0 0-.25.25v2.5c0 .138.112.25.25.25Zm16-6.75A2.25 2.25 0 0 0 16.5 1.5c-1.15 0-3.433 1.007-3.72 4.5h3.72a2.25 2.25 0 0 0 2.25-2.25ZM11.22 6c-.287-3.493-2.57-4.5-3.72-4.5a2.25 2.25 0 1 0 0 4.5Z">
+</path>
+</svg>
+<span>
+          Nhận thêm ưu đãi tới
+          <span class="font-bold">
+           600k/sản phẩm
+          </span>
+</span>
+<div class="text-info-500 font-bold flex items-center gap-3x-small cursor-pointer select-none">
+          Xem chi tiết
+          <svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewbox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z">
+</path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full flex flex-col items-center pb-[100px] gap-medium">
+</div>
+<div class="shadow-group-button w-full z-10 box-content grid px-1x-small tablet:px-medium py-medium grid-cols-2 gap-medium sticky bottom-0 left-0 right-0 bg-pure-white translate-x-[-8px] tablet:translate-x-[-16px]">
+<span class="cpsui:flex cpsui:items-center cpsui:justify-center cpsui:gap-2x-small cpsui:cursor-pointer cpsui:disabled:cursor-not-allowed cpsui:border cpsui:border-[1px] cpsui:text-medium cpsui:px-medium cpsui:py-1x-small cpsui:min-h-[48px] cpsui:rounded-base cpsui:border-neutral-300 cpsui:text-neutral-800 cpsui:bg-pure-white cpsui:hover:border-neutral-400 cpsui:hover:bg-neutral-50 cpsui:disabled:border-black-300 cpsui:disabled:text-black-300 cpsui:disabled:bg-pure-white w-full px-0 tablet:px-medium font-medium flex gap-1x-small items-center" data-original-href="#" data-slot="button" type="button">
+<svg class="tablet:inline-block hidden" fill="currentColor" height="22" stroke="currentColor" stroke-width="0" viewbox="0 0 512 512" width="22" xmlns="http://www.w3.org/2000/svg">
+<path d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z">
+</path>
+</svg>
+        Quay lại đăng nhập
+       </span>
+<button class="cpsui:flex cpsui:items-center cpsui:justify-center cpsui:gap-2x-small cpsui:cursor-pointer cpsui:disabled:cursor-not-allowed cpsui:border cpsui:border-[1px] cpsui:text-medium cpsui:px-medium cpsui:py-1x-small cpsui:min-h-[48px] cpsui:rounded-base cpsui:border-primary-500 cpsui:bg-primary-500 cpsui:text-pure-white cpsui:hover:border-primary-700 cpsui:hover:bg-primary-700 cpsui:disabled:text-black-300 cpsui:disabled:bg-neutral-200 cpsui:disabled:border-neutral-200 w-full font-medium px-0 tablet:px-medium" data-slot="button" type="button">
+        Hoàn tất đăng ký
+       </button>
+</div>
+</form>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+<!--$-->
+<!--/$-->
+<!--/$-->
+</div>
+<section aria-atomic="false" aria-label="Notifications alt+T" aria-live="polite" aria-relevant="additions text" tabindex="-1">
+</section>
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PZNPQRVW" style="display: none; visibility: hidden;" width="0">
+</iframe>
+</noscript>
+</body>
+</html>
